@@ -1,0 +1,166 @@
+/* navbar */
+
+.navbar {
+   background: rgba(0, 0, 0, 0.1) !important;
+} 
+
+
+/* navbar muda de cor ao scroll do mouse */
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  transition: background-color 200ms linear;
+}
+
+
+
+/* Parallax */
+.header-site {
+	background-image: url('../img/pc04-edit.jpg');
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #FFF	;
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+
+/* Textos */
+.texto01{
+	font-family: 'Courgette', cursive;
+	font-size: 80px;
+}
+
+.texto02{
+	color: #292026;
+	font-family: 'Courgette', cursive;
+}
+
+.texto03 {
+	color: #292026;
+	font-family: 'Courgette', cursive;
+
+}
+
+.texto04 {
+	font-family: 'Courgette', cursive;
+}
+
+.texto05{
+	color: #FFF;
+	font-family: 'Bitter', serif;
+	font-size: 13px;
+}
+
+h5{
+	font-family: 'Bitter', serif;
+}
+
+.textomedia {
+	font-family: 'Bitter', serif;
+	text-align: justify;
+}
+
+.port {
+	color: #292026;
+	font-family: 'Courgette', cursive;
+}
+
+#logo{
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
+}
+
+.lead{
+	font-family: 'Bitter', serif;
+}
+
+.nav-link{
+	font-family: 'Bitter', serif;
+}
+
+
+
+/* fonts 
+.itens{
+	text-align: center;
+}
+
+
+.fa-html5{
+	color: #FFF ;
+}
+
+.fa-css3-alt{
+	color: #FFF;
+}
+
+.fa-js{
+	color: #FFF;
+} 
+
+.fa-php{
+	color: #FFF;
+}*/
+/* testes */
+.page-footer{
+	background-color: #191919 !important;
+}/*
+.jumb02{
+	background: #056585;
+	color: #FFF;
+} */
+
+hr{
+	height:3px;
+	width: 60px;
+	border:none;
+	border-radius: 5px; 
+	color:#292026; 
+	background-color:#292026; 
+	margin-top: 0px; 
+}
+
+a {
+	color: #FFF !important;
+}
+
+
+/* buttons */
+.btn {
+	width: 120px;
+	height: 40px;
+	background: #D11341;
+	color: #FFF;
+	border-radius: 20px;
+
+}
+
+.btn:focus {
+outline: none;
+}
+
+.btn02 {
+	width: 250px;
+	height: 40px;
+	background: #D11341;
+	color: #FFF;
+	border: none;
+	border-radius: 20px;
+}
+
+.btn02:hover{
+	background-color: #851934;
+	border-color: #D11341;
+}
+
+/* itens */
+.item{
+	color: #851934;
+}
+
+/* Media queries */
+@media only screen and (max-width: 767px) {
+    .texto01{
+        font-size: 40px;
+    }
+}
