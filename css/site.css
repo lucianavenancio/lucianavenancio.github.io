@@ -79,36 +79,10 @@ h5{
 }
 
 
-
-/* fonts 
-.itens{
-	text-align: center;
-}
-
-
-.fa-html5{
-	color: #FFF ;
-}
-
-.fa-css3-alt{
-	color: #FFF;
-}
-
-.fa-js{
-	color: #FFF;
-} 
-
-.fa-php{
-	color: #FFF;
-}*/
 /* testes */
 .page-footer{
 	background-color: #191919 !important;
-}/*
-.jumb02{
-	background: #056585;
-	color: #FFF;
-} */
+}
 
 hr{
 	height:3px;
@@ -156,6 +130,15 @@ outline: none;
 /* itens */
 .item{
 	color: #851934;
+}
+
+/* card hover */
+.card {
+	transition: 0.5s;
+}
+
+.card:hover {
+	transform: scale(1.1);
 }
 
 /* Media queries */
